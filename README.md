@@ -1,2 +1,2 @@
-# m33_survey_plots
-Figures for M33 survey paper (Williams et al 202X, in prep)
+# PHATTER survey paper figures
+Code to make figures for M33 survey paper (Williams et al 202X, in prep)
