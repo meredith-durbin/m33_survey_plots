@@ -78,17 +78,4 @@ def deg_to_deproj(ra, dec, ra0=23.4625, dec0=30.6602,
     distB = dec_adj * dist_kpc * np.pi/180
     return distA, distB
 
-#     if rename:
-#         for f in ds.get_column_names(regex='F275W'):
-#             ds.rename(f, f.replace('F275W','_F275W'))
-#         for f in ds.get_column_names(regex='F336W'):
-#             ds.rename(f, f.replace('F336W','_F336W'))
-#         for f in ds.get_column_names(regex='F475W'):
-#             ds.rename(f, f.replace('F475W','F275W'))
-#         for f in ds.get_column_names(regex='F814W'):
-#             ds.rename(f, f.replace('F814W','F336W'))
-#         for f in ds.get_column_names(regex='_F275W'):
-#             ds.rename(f, f.replace('_F275W','F475W'))
-#         for f in ds.get_column_names(regex='_F336W'):
-#             ds.rename(f, f.replace('_F336W','F814W'))
 
